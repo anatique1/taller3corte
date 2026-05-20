@@ -66,7 +66,7 @@ tests/
 
 ## Crear clases en Python
 
-Una clase define un tipo de objeto. En esta práctica crearás suscriptores con estado interno:
+Las clases permiten representar objetos con atributos y comportamientos propios. En esta práctica cada suscriptor almacena mensajes recibidos y puede reaccionar cuando el canal publica información nueva.
 
 ```python
 class SuscriptorEmail:
@@ -92,7 +92,7 @@ Más adelante crearás también `SuscriptorSMS` y `CanalNoticias`.
 
 ## Implementar Observer paso a paso
 
-El patrón Observer separa un objeto que cambia, llamado sujeto observable, de los objetos que reaccionan al cambio, llamados observadores.
+En este patrón, el canal funciona como el objeto principal que envía información a los demás objetos. Los suscriptores actúan como observadores porque reciben automáticamente los mensajes cuando el canal publica una noticia nueva.
 
 En este proyecto:
 
@@ -178,5 +178,4 @@ Si una prueba falla, lee el mensaje de error y ajusta las clases. La meta es que
 Al terminar las misiones, se creará un issue final de calificación. Ejecuta manualmente el workflow **Validar progreso de misiones** si quieres actualizar la revisión. El comentario del issue mostrará una calificación automática sobre 100.
 
 ## Autores
-
-- Reemplaza esta línea con tu nombre, grupo, curso o rol.
+- Ana maria tique, Ing. Software
