@@ -5,7 +5,7 @@ from observer_practice.suscriptores import SuscriptorEmail, SuscriptorSMS
 canal = CanalNoticias("Noticias1")
 
 # Crear suscriptores
-ana = SuscriptorEmail("Ana")
+ana = SuscriptorEmail("Anaaaaaaaaaa")
 maria = SuscriptorSMS("Maria")
 
 # Suscribir
